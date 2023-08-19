@@ -6,7 +6,7 @@ void main() {
   );
 }
 
-class MyApp extends StatelessWidget { 
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
@@ -15,17 +15,39 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Container(
-            color: Colors.red,
-            height: 100.0,
-            width: 100.0,
-            margin: const EdgeInsets.all(10.0),
-            padding: const EdgeInsets.all(20.0),
-            child: const Text("hello"),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Container(
+                color: Colors.red,
+                // height: 120.0,
+                width: 100,
+              ),
+              Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    color: Colors.yellow,
+                    height: 100,
+                    width: 100,
+                  ),
+                  Container(
+                    color: const Color.fromARGB(82, 255, 235, 59),
+                    height: 100,
+                    width: 100,
+                  )
+                ],
+              ),
+              Container(
+                color: Colors.blue,
+                // height: 70.0,
+                width: 100,
+              ),
+            ],
           ),
         ),
       ),
     );
   }
 }
-
