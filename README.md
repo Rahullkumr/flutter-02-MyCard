@@ -1,4 +1,7 @@
-# Flutter ❤
+<h1 align=center>Flutter ❤</h1>
+
+## flutter-02-MyCard
+
 used various widgets like Container, Column, Row, etc to develop a personal card.
 
 ## Device on which codespace is running is:
