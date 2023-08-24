@@ -9,7 +9,7 @@ used various widgets like Container, Column, Row, etc to develop a personal card
 
 use `SafeArea` widget
 
-### 2. space between Containers 
+### 2. space between Containersss
 - use `SizedBox()` widget
 
 ### 3. stretch container to fill entire available space
