@@ -65,9 +65,10 @@ style: TextStyle(
 
 - `Icon widget` uses a vector graphic, which is a mathematical representation of an image, so it can be rendered more quickly and resized without losing quality. 
 
-### 8. Cards are containers only but have rounded corners and shadow along with few more properties
-
 - `Image widget` is rasterized, which means that it is converted to a pixel-based image when it is rendered, so it will become pixelated if it is resized too much
 
 - `Icon widget` allows you to change the color, size, and other properties of the icon. The Image widget only allows you to change the size of the image.
+
+### 8. Cards are containers only but have rounded corners and shadow along with few more properties
+
 ---
