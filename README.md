@@ -4,6 +4,8 @@
 
 used various widgets like Container, Column, Row, etc to develop a personal card.
 
+![](./BusinessCard.jpg)
+
 ### 1. To keep the content in the safe area
 > safe area: the area other than the place where icons like - signal, wifi, notification, notch, etc live.
 
