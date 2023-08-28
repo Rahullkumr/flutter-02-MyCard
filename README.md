@@ -4,6 +4,7 @@
 
 used various widgets like Container, Column, Card, ListTile, etc to develop a Business card.
 
+## The App
 ![](./BusinessCard.jpg)
 
 ### 1. To keep the content in the safe area
