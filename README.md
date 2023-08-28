@@ -69,6 +69,37 @@ style: TextStyle(
 
 - `Icon widget` allows you to change the color, size, and other properties of the icon. The Image widget only allows you to change the size of the image.
 
-### 8. Cards are containers only but have rounded corners and shadow along with few more properties
+### 8. `Container` vs `Card` widget
 
+- card is like a container widget but it has rounded corners and shadow along with few more properties  
+
+### 9. `Padding()` Widget
+
+- used to give padding to those widgets that don't have padding property like Row(), Column(), Card(), etc
+```
+Padding(
+    padding: EdgeInsets.all(20.0),
+    child: Row(
+        children: [
+            Text("Padding widget example"),
+        ]
+    )
+)
+```
+
+### 10. `ListTile()` with Card() widget
+
+- use ListTile() instead of Row() in Card() widget
+
+```
+ListTile(
+    leading: Icon(
+        Icons.phone,
+    ),
+    title: Text(
+        'Rahul',
+    )
+)
+```
+### 11. `Divider()` = `<hr>`
 ---
