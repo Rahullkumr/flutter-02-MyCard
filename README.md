@@ -2,7 +2,7 @@
 
 ## flutter-02-MyCard
 
-used various widgets like Container, Column, Row, etc to develop a personal card.
+used various widgets like Container, Column, Card, ListTile, etc to develop a Business card.
 
 ![](./BusinessCard.jpg)
 
