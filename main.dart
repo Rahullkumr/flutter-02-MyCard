@@ -13,36 +13,80 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.black,
         body: SafeArea(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            crossAxisAlignment: CrossAxisAlignment.center,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Container(
-                color: Colors.red,
-                // height: 120.0,
-                width: 100,
+              CircleAvatar(
+                radius: 50,
+                backgroundColor: Colors.grey[900],
+                backgroundImage: const AssetImage('images/me.png'),
               ),
-              Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Container(
-                    color: Colors.yellow,
-                    height: 100,
-                    width: 100,
+              const Text(
+                "Rahul Kumar",
+                style: TextStyle(
+                  fontFamily: 'Filxgirl',
+                  fontSize: 40,
+                  letterSpacing: 1,
+                  color: Colors.white,
+                ),
+              ),
+              const Text(
+                "FLUTTER DEVELOPER",
+                style: TextStyle(
+                  fontFamily: 'Ysabeau',
+                  color: Colors.white,
+                  fontSize: 17,
+                  letterSpacing: 3,
+                ),
+              ),
+              const SizedBox(
+                height: 20,
+                width: 150,
+                child: Divider(
+                  color: Colors.grey,
+                ),
+              ),
+              const Card(
+                elevation: 7,
+                margin: EdgeInsets.symmetric(
+                  vertical: 10,
+                  horizontal: 25,
+                ),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.phone,
+                    size: 20,
+                    color: Colors.black,
                   ),
-                  Container(
-                    color: const Color.fromARGB(82, 255, 235, 59),
-                    height: 100,
-                    width: 100,
-                  )
-                ],
+                  title: Text(
+                    '+91 9798295265',
+                    style: TextStyle(
+                      fontSize: 20,
+                    ),
+                  ),
+                ),
               ),
-              Container(
-                color: Colors.blue,
-                // height: 70.0,
-                width: 100,
+              const Card(
+                elevation: 7,
+                margin: EdgeInsets.symmetric(
+                  vertical: 10,
+                  horizontal: 25,
+                ),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.email,
+                    size: 20,
+                    color: Colors.black,
+                  ),
+                  title: Text(
+                    'rahulbkba@gmail.com',
+                    style: TextStyle(
+                      fontSize: 20,
+                    ),
+                  ),
+                ),
               ),
             ],
           ),
