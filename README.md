@@ -108,56 +108,6 @@ ListTile(
 ### 12. Decoration properties of Container Widget
 
 <img alt="decoration image" src="https://github.com/Rahullkumr/Flutter-Prac/blob/main/images/decoration.jpg"></img>
-
----
-
-### 13. Expanded() widget
-- it adjusts it's child a/c to the screen size.
-- it's `flex` property will divide the children into ratio
-
-### 14. Other way of using AssetImage()
-`Image.asset('images/name.png')`
-
-### 15. Deprecated widgets
-
-- FlatButton => TextButton()
-- RaisedButton => ElevatedButton()
-
-## Different ways to make circle in flutter
-
-1. using `CircleAvatar()` widget
-```
-CircleAvatar(
-    radius: 50,
-    child: Text('My Avatar'),
-)
-```
-
-2. using `borderRadius:` property of Container widget
-```
-Container(
-    decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(100),
-    ),
-)
-```
-
-3.  Using `shape: BoxShape.circle` property 
-
-```
-Container(
-  decoration: BoxDecoration(
-    shape: BoxShape.circle,
-  ),
-)
-```
-
-4. Using the `CustomPaint` 
-```
-CustomPaint(
-  painter: CirclePainter(),
-)
-```
 -----
 
 Run any Flutter repository on Zapp website: <a href="https://zapp.run/assets/homepage/import-github.gif">refer this link </a>
