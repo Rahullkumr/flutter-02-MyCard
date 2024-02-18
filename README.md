@@ -108,6 +108,7 @@ ListTile(
 ### 12. Decoration properties of Container Widget
 
 <img alt="decoration image" src="https://github.com/Rahullkumr/Flutter-Prac/blob/main/images/decoration.jpg"></img>
+
 -----
 
 Run any Flutter repository on Zapp website: <a href="https://zapp.run/assets/homepage/import-github.gif">refer this link </a>
